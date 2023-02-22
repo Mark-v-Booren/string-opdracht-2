@@ -11,15 +11,12 @@ scorer_2 = 'Marco van Basten'
 goal_0 = 32
 goal_1 = 54
 
-
 scorers = scorer_1 + ' ' + str(32) + ', ' + scorer_2 + ' '+str(54)
+
 report = f'{scorer_1} scored in the {goal_0}nd minute\n{scorer_2} scored in the {goal_1}th minute'
 
 player = 'Hans van Breukelen'
-
 splittedName = player.find(' ')
-
-
 lastName = player[splittedName+1:]
 first_name = player[0:splittedName]
 name_short = first_name[0]+'. ' + lastName
